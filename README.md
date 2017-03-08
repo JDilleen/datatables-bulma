@@ -5,14 +5,14 @@ DataTables styling for the Bulma CSS framework
 ## Quick Start
 Include the [Bulma](http://bulma.io/) CSS, followed by the /css/dataTables.bulma.min.css file
 
-    <link rel="stylesheet" href="/css/bulma.css">
-    <link rel="stylesheet" href="/css/datatables/dataTables.bulma.css" />
+    <link rel="stylesheet" href="/css/bulma.min.css">
+    <link rel="stylesheet" href="/css/datatables/dataTables.bulma.min.css" />
     
 Include [jQuery](https://jquery.com/), [DataTables](https://datatables.net/) and the /js/dataTables.bulma.min.js file
 
     <script src="/js/jquery-3.1.1.min.js"></script>
     <script src="/js/jquery.dataTables.min.js"></script>
-    <script src="/js/dataTables.bulma.js"></script>
+    <script src="/js/dataTables.bulma.min.js"></script>
 
 Initialise DataTables as normal
 
