@@ -25,3 +25,7 @@ Initialise DataTables as normal
 
 ### Extra
 Include the [Font Awesome](http://http://fontawesome.io/) icon set for the sorting arrows as shown in the above screenshot.
+
+### NPM
+Install via npm:
+    npm install datatables-bulma
