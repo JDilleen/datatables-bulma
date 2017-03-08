@@ -1,0 +1,26 @@
+{
+  "name": "datatables-bulma",
+  "version": "1.0.0",
+  "description": "Bulma CSS framework style integration for the DataTables library",
+  "main": "js/dataTables.bulma.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JDilleen/datatables-bulma.git"
+  },
+  "keywords": [
+    "datatables",
+    "bulma",
+    "css",
+    "jquery",
+    "plugin"
+  ],
+  "author": "James Dilleen <j.dilleen@hotmail.com> (https://jdilleen.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JDilleen/datatables-bulma/issues"
+  },
+  "homepage": "https://github.com/JDilleen/datatables-bulma#readme"
+}
