@@ -28,4 +28,5 @@ Include the [Font Awesome](http://http://fontawesome.io/) icon set for the sorti
 
 ### NPM
 Install via npm:
+
     npm install datatables-bulma
