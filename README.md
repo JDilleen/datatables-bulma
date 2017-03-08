@@ -6,7 +6,7 @@ DataTables styling for the Bulma CSS framework
 Include the [Bulma](http://bulma.io/) CSS, followed by the /css/dataTables.bulma.min.css file
 
     <link rel="stylesheet" href="/css/bulma.min.css">
-    <link rel="stylesheet" href="/css/datatables/dataTables.bulma.min.css" />
+    <link rel="stylesheet" href="/css/dataTables.bulma.min.css" />
 
 Include [jQuery](https://jquery.com/), [DataTables](https://datatables.net/) and the /js/dataTables.bulma.min.js file
 
