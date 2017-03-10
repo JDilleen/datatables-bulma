@@ -1,7 +1,3 @@
-/*!
- DataTables Bootstrap 3 integration
- Â©2011-2015 SpryMedia Ltd - datatables.net/license
-*/
 (function(b) {
   "function" === typeof define && define.amd ? define(["jquery", "datatables.net"], function(a) {
     return b(a, window, document)
