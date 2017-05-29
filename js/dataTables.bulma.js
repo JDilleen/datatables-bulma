@@ -31,36 +31,38 @@
       q = function(d, f) {
         var l, h, i, c, m = function(a) {
           a.preventDefault();
-          (!b(a.currentTarget).hasClass("is-disabled") && !b(a.currentTarget).is("#table_ellipsis")) && o.page() != a.data.action && o.page(a.data.action).draw("page")
+          (!b(a.currentTarget).is("[disabled]") && !b(a.currentTarget).is("#table_ellipsis")) && o.page() != a.data.action && o.page(a.data.action).draw("page")
         };
         l = 0;
         for (h = f.length; l < h; l++)
           if (c = f[l], b.isArray(c)) q(d, c);
           else {
             g = e = "";
+            dd = false;
             switch (c) {
               case "ellipsis":
                 e = "&#x2026;";
-                g = "is-disabled";
+                dd = true;
                 break;
               case "first":
                 e = k.sFirst;
-                g = c + (0 < j ? "" : " is-disabled");
+                dd = c + (0 < j ? false : true);
                 break;
               case "previous":
                 e = k.sPrevious;
-                g = c + (0 < j ? "" : " is-disabled");
+                dd = 0 < j ? false : true;
                 break;
               case "next":
                 e = k.sNext;
-                g = c + (j < n - 1 ? "" : " is-disabled");
+                dd = j < n - 1 ? false : true;
                 break;
               case "last":
                 e = k.sLast;
-                g = c + (j < n - 1 ? "" : " is-disabled");
+                dd = c + (j < n - 1 ? false : true);
                 break;
               default:
-                e = c + 1, g = j === c ? " is-current" : ""
+                e = c + 1, g = j === c ? " is-current" : "";
+                dd = false;
             }
             e && (i = b("<li>", {
               id: 0 === r && "string" === typeof c ? a.sTableId + "_" + c : null
@@ -70,7 +72,8 @@
               "aria-controls": a.sTableId,
               "aria-label": t[c],
               "data-dt-idx": p,
-              tabindex: a.iTabIndex
+              tabindex: a.iTabIndex,
+              disabled: dd
             }).html(e)).appendTo(d), a.oApi._fnBindAction(i, {
               action: c
             }, m), p++)
