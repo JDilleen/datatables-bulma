@@ -21,7 +21,7 @@ Initialise DataTables as normal
     </script>
 
 ## End Result
-![Styled DataTable](https://jdilleen.me/includes/img/bulma.png)
+![Styled DataTable](https://i.imgur.com/wh2yo85.png)
 
 ### Extra
 Include the [Font Awesome](http://http://fontawesome.io/) icon set for the sorting arrows as shown in the above screenshot.
