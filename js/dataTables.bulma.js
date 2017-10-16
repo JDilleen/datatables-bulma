@@ -38,7 +38,7 @@
           if (c = f[l], b.isArray(c)) q(d, c);
           else {
             g = e = "";
-            dd = false;
+            var dd = false;
             switch (c) {
               case "ellipsis":
                 e = "&#x2026;";
