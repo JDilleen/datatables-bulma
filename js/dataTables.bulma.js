@@ -9,7 +9,7 @@
 })(function(b, a, d) {
   var f = b.fn.dataTable;
   b.extend(!0, f.defaults, {
-    dom: "<'columns'<'column is-6'l><'column is-6'f>><'columns'<'column is-12'tr>><'columns'<'column is-5'i><'column is-7'p>>",
+    dom: "<'columns'<'column is-6'l><'column is-6'f>><'columns'<'column is-12 table-container'tr>><'columns'<'column is-5'i><'column is-7'p>>",
     renderer: "bulma"
   });
   b.extend(f.ext.classes, {
