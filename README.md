@@ -24,7 +24,7 @@ Initialise DataTables as normal
 ![Styled DataTable](https://i.imgur.com/wh2yo85.png)
 
 ### Extra
-Include the [Font Awesome](http://http://fontawesome.io/) icon set for the sorting arrows as shown in the above screenshot.
+Include the [Font Awesome](https://fontawesome.com/) icon set for the sorting arrows as shown in the above screenshot.
 
 ### NPM
 Install via npm:
